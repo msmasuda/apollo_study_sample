@@ -1,0 +1,22 @@
+{
+  "name": "client_vue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.17",
+    "@vue/apollo-composable": "^4.0.0-beta.8",
+    "graphql": "^16.7.1",
+    "graphql-tag": "^2.12.6",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.4.0"
+  }
+}
